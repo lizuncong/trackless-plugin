@@ -3,7 +3,7 @@
   "name": "可视化埋点编辑器",
   "version": "1.0",
   "description": "选择页面元素并设置埋点参数，生成可视化埋点代码",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "storage"],
   "action": {
     "default_popup": "popup.html",
     "default_title": "可视化埋点编辑器"
