@@ -73,15 +73,6 @@ function md5(string) {
     lWordArray[lNumberOfWords - 1] = lMessageLength >>> 29;
     return lWordArray;
   }
-  function md5_WordToHex(lValue) {
-    var WordToHexValue = "", WordToHexValue_temp = "", lByte, lCount;
-    for (lCount = 0; lCount <= 3; lCount++) {
-      lByte = (lValue >>> (lCount * 8)) & 255;
-      WordToHexValue_temp = "0" + lByte.toString(16);
-      WordToHexValue = WordToHexValue + WordToHexValue_temp.substr(WordToHexValue_temp.length - 2, 2);
-    }
-    return WordToHexValue;
-  }
   function md5_WordToBytes(lValue) {
     var bytes = [];
     for (var lCount = 0; lCount <= 3; lCount++) {

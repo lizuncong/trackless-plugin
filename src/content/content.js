@@ -92,3 +92,4 @@ function showNotification(message) {
     notification.remove();
   }, 2000);
 }
+

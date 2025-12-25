@@ -1,0 +1,20 @@
+{
+  "name": "trackless-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "可视化埋点编辑器 Chrome 扩展",
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.19.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.0",
+    "vite": "^5.1.0",
+    "vite-plugin-static-copy": "^1.0.4"
+  }
+}
+
