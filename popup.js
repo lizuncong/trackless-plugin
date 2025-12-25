@@ -1,3 +1,5 @@
+import request from './request.js';
+
 // 获取DOM元素
 const fontSize = document.getElementById("fontSize");
 const fontColor = document.getElementById("fontColor");
@@ -33,3 +35,14 @@ resetBtn.addEventListener("click", async () => {
     action: "resetStyles",
   });
 });
+
+// 调用 request 获取数据
+(async () => {
+  try {
+    const result = await request();
+    console.log('请求结果:', result);
+    // 可以在这里处理返回的数据，比如显示在 popup 中
+  } catch (error) {
+    console.error('请求失败:', error);
+  }
+})();

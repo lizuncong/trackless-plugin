@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "页面元素样式编辑器",
+  "name": "可视化埋点编辑器",
   "version": "1.0",
-  "description": "选择页面元素并修改字体、颜色等样式",
+  "description": "选择页面元素并设置埋点参数，生成可视化埋点代码",
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "样式编辑器"
+    "default_title": "可视化埋点编辑器"
   },
   "content_scripts": [
     {
