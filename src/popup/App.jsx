@@ -38,7 +38,7 @@ export default function App() {
         setLoading(true);
         const result = await request();
         console.log(result);
-        setData(result);
+        setData(result?.payload || []);
         setError(null);
       } catch (err) {
         setError(err.message || "请求失败");
@@ -127,7 +127,7 @@ export default function App() {
             isEnabled ? styles.toggleLabelEnabled : styles.toggleLabelDisabled
           }`}
         >
-          启用样式编辑
+          启用埋点编辑器
         </label>
         <label className={styles.toggleWrapper}>
           <input
@@ -155,39 +155,7 @@ export default function App() {
       </div>
 
       <div className={styles.formGroup}>
-        <label className={styles.label}>字体大小:</label>
-        <input
-          type="number"
-          min="8"
-          max="72"
-          value={fontSize}
-          onInput={(e) => setFontSize(Number(e.currentTarget.value))}
-          className={styles.input}
-        />
-      </div>
-
-      <div className={styles.formGroup}>
-        <label className={styles.label}>字体颜色:</label>
-        <input
-          type="color"
-          value={fontColor}
-          onInput={(e) => setFontColor(e.currentTarget.value)}
-          className={styles.input}
-        />
-      </div>
-
-      <div className={styles.formGroup}>
-        <label className={styles.label}>背景色:</label>
-        <input
-          type="color"
-          value={bgColor}
-          onInput={(e) => setBgColor(e.currentTarget.value)}
-          className={styles.input}
-        />
-      </div>
-
-      <div className={styles.formGroup}>
-        <label className={styles.label}>字体族:</label>
+        <label className={styles.label}>埋点事件id:</label>
         <select
           value={fontFamily}
           onChange={(e) => setFontFamily(e.currentTarget.value)}
@@ -200,19 +168,6 @@ export default function App() {
           <option value="Verdana">Verdana</option>
           <option value="微软雅黑">微软雅黑</option>
           <option value="宋体">宋体</option>
-        </select>
-      </div>
-
-      <div className={styles.formGroup}>
-        <label className={styles.label}>字体粗细:</label>
-        <select
-          value={fontWeight}
-          onChange={(e) => setFontWeight(e.currentTarget.value)}
-          className={styles.select}
-        >
-          <option value="normal">正常</option>
-          <option value="bold">粗体</option>
-          <option value="lighter">细体</option>
         </select>
       </div>
 
@@ -236,16 +191,6 @@ export default function App() {
           重置样式
         </button>
       </div>
-
-      {loading && (
-        <div className={`${styles.status} ${styles.loading}`}>加载中...</div>
-      )}
-      {error && (
-        <div className={`${styles.status} ${styles.error}`}>错误: {error}</div>
-      )}
-      {data && (
-        <div className={`${styles.status} ${styles.success}`}>数据已加载</div>
-      )}
     </div>
   );
 }

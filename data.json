@@ -1,0 +1,13 @@
+{
+  "home": {
+    "pid": "home",
+    "scene": "9201"
+  },
+  "giveaway": {
+    "pid": "giveaway",
+    "scene": "9229"
+  },
+  "domid1": {
+    "pid": "home"
+  }
+}

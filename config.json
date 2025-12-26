@@ -1,0 +1,673 @@
+{
+  "code": 200,
+  "msg": "success",
+  "payload": [
+    {
+      "curPage": "giveaway",
+      "curLocation": "scene",
+      "eventId": "dt_imp/giveaway/scene",
+      "displayVersion": null,
+      "props": [],
+      "commonParams": [
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_imp,元素曝光"
+        },
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "scene,场景"
+        }
+      ]
+    },
+    {
+      "curPage": "giveaway",
+      "curLocation": "grow-a-garden-giveaways/header",
+      "eventId": "dt_imp/giveaway/grow-a-garden-giveaways/header",
+      "displayVersion": null,
+      "props": [],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "header"
+        },
+        {
+          "paramId": "module_name",
+          "colName": "模块名称",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"latest-updates,latest-updates\\nhot-trades,hot-trades\\nnav-sidebar,nav-sidebar\\nlabel-card,label-card\\nupdated-pets,updated-pets\\npets-info,pets-info\\nuniversal-info,universal-info\\ntrending-new,trending-new\\nyou-may-also-like,you-may-also-like\\nkitsune-value-overview,kitsune-value-overview\\npets-with-similar-value,pets-with-similar-value\\npet-log,pet-log\\npet-value-list,pet-value-list\\nfaq,faq\\npet-trading-summary,pet-trading-summary\\nbanner-card,banner-card\\nrelated-articles,related-articles\\nheader-information-card,header-information-card\\nyoutube-video,youtube-video\\ntrade-recommend,trade-recommend\\narticle,article\\npet-wiki,pet-wiki\\nodayis-top-trade-value-pets,odayis-top-trade-value-pets\\ngrow-a-garden-giveaways,grow-a-garden-giveaways\\ngiveaways-calendar,giveaways-calendar\\ndiscover-more-giveaways,discover-more-giveaways\"}",
+          "required": true,
+          "remark": "grow-a-garden-giveaways,grow-a-garden-giveaways"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_imp,元素曝光"
+        }
+      ]
+    },
+    {
+      "curPage": "giveaway",
+      "curLocation": "grow-a-garden-giveaways/header",
+      "eventId": "dt_clck/giveaway/grow-a-garden-giveaways/header",
+      "displayVersion": null,
+      "props": [],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "header，顶部活动入口按钮"
+        },
+        {
+          "paramId": "module_name",
+          "colName": "模块名称",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"latest-updates,latest-updates\\nhot-trades,hot-trades\\nnav-sidebar,nav-sidebar\\nlabel-card,label-card\\nupdated-pets,updated-pets\\npets-info,pets-info\\nuniversal-info,universal-info\\ntrending-new,trending-new\\nyou-may-also-like,you-may-also-like\\nkitsune-value-overview,kitsune-value-overview\\npets-with-similar-value,pets-with-similar-value\\npet-log,pet-log\\npet-value-list,pet-value-list\\nfaq,faq\\npet-trading-summary,pet-trading-summary\\nbanner-card,banner-card\\nrelated-articles,related-articles\\nheader-information-card,header-information-card\\nyoutube-video,youtube-video\\ntrade-recommend,trade-recommend\\narticle,article\\npet-wiki,pet-wiki\\nodayis-top-trade-value-pets,odayis-top-trade-value-pets\\ngrow-a-garden-giveaways,grow-a-garden-giveaways\\ngiveaways-calendar,giveaways-calendar\\ndiscover-more-giveaways,discover-more-giveaways\"}",
+          "required": true,
+          "remark": "grow-a-garden-giveaways,grow-a-garden-giveaways"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_clck,元素点击"
+        }
+      ]
+    },
+    {
+      "curPage": "giveaway",
+      "curLocation": "giveaway-list/trustpilot",
+      "eventId": "dt_clck/giveaway/grow-a-garden-giveaways/trustpilot",
+      "displayVersion": null,
+      "props": [],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "trustpilot"
+        },
+        {
+          "paramId": "module_name",
+          "colName": "模块名称",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"latest-updates,latest-updates\\nhot-trades,hot-trades\\nnav-sidebar,nav-sidebar\\nlabel-card,label-card\\nupdated-pets,updated-pets\\npets-info,pets-info\\nuniversal-info,universal-info\\ntrending-new,trending-new\\nyou-may-also-like,you-may-also-like\\nkitsune-value-overview,kitsune-value-overview\\npets-with-similar-value,pets-with-similar-value\\npet-log,pet-log\\npet-value-list,pet-value-list\\nfaq,faq\\npet-trading-summary,pet-trading-summary\\nbanner-card,banner-card\\nrelated-articles,related-articles\\nheader-information-card,header-information-card\\nyoutube-video,youtube-video\\ntrade-recommend,trade-recommend\\narticle,article\\npet-wiki,pet-wiki\\nodayis-top-trade-value-pets,odayis-top-trade-value-pets\\ngrow-a-garden-giveaways,grow-a-garden-giveaways\\ngiveaways-calendar,giveaways-calendar\\ndiscover-more-giveaways,discover-more-giveaways\"}",
+          "required": true,
+          "remark": "grow-a-garden-giveaways,grow-a-garden-giveaways"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_imp,元素曝光"
+        }
+      ]
+    },
+    {
+      "curPage": "giveaway",
+      "curLocation": "grow-a-garden-giveaways/share",
+      "eventId": "dt_clck/giveaway/grow-a-garden-giveaways/share",
+      "displayVersion": null,
+      "props": [],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "share"
+        },
+        {
+          "paramId": "module_name",
+          "colName": "模块名称",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"latest-updates,latest-updates\\nhot-trades,hot-trades\\nnav-sidebar,nav-sidebar\\nlabel-card,label-card\\nupdated-pets,updated-pets\\npets-info,pets-info\\nuniversal-info,universal-info\\ntrending-new,trending-new\\nyou-may-also-like,you-may-also-like\\nkitsune-value-overview,kitsune-value-overview\\npets-with-similar-value,pets-with-similar-value\\npet-log,pet-log\\npet-value-list,pet-value-list\\nfaq,faq\\npet-trading-summary,pet-trading-summary\\nbanner-card,banner-card\\nrelated-articles,related-articles\\nheader-information-card,header-information-card\\nyoutube-video,youtube-video\\ntrade-recommend,trade-recommend\\narticle,article\\npet-wiki,pet-wiki\\nodayis-top-trade-value-pets,odayis-top-trade-value-pets\\ngrow-a-garden-giveaways,grow-a-garden-giveaways\\ngiveaways-calendar,giveaways-calendar\\ndiscover-more-giveaways,discover-more-giveaways\"}",
+          "required": true,
+          "remark": "grow-a-garden-giveaways,grow-a-garden-giveaways"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_clck,元素点击"
+        }
+      ]
+    },
+    {
+      "curPage": "giveaway",
+      "curLocation": "giveaways-calendar/calendardiscord",
+      "eventId": "dt_clck/giveaway/giveaways-calendar/discord",
+      "displayVersion": null,
+      "props": [],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "calendardiscord，日历模块的joinnow按钮"
+        },
+        {
+          "paramId": "module_name",
+          "colName": "模块名称",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"latest-updates,latest-updates\\nhot-trades,hot-trades\\nnav-sidebar,nav-sidebar\\nlabel-card,label-card\\nupdated-pets,updated-pets\\npets-info,pets-info\\nuniversal-info,universal-info\\ntrending-new,trending-new\\nyou-may-also-like,you-may-also-like\\nkitsune-value-overview,kitsune-value-overview\\npets-with-similar-value,pets-with-similar-value\\npet-log,pet-log\\npet-value-list,pet-value-list\\nfaq,faq\\npet-trading-summary,pet-trading-summary\\nbanner-card,banner-card\\nrelated-articles,related-articles\\nheader-information-card,header-information-card\\nyoutube-video,youtube-video\\ntrade-recommend,trade-recommend\\narticle,article\\npet-wiki,pet-wiki\\nodayis-top-trade-value-pets,odayis-top-trade-value-pets\\ngrow-a-garden-giveaways,grow-a-garden-giveaways\\ngiveaways-calendar,giveaways-calendar\\ndiscover-more-giveaways,discover-more-giveaways\"}",
+          "required": true,
+          "remark": "giveaways-calendar,giveaways-calendar"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_clck,元素点击"
+        }
+      ]
+    },
+    {
+      "curPage": "giveaway",
+      "curLocation": "giveaway-list/tab",
+      "eventId": "dt_clck/giveaway/giveaway-list/tab",
+      "displayVersion": null,
+      "props": [
+        {
+          "paramId": "tab_name",
+          "paramType": "string",
+          "required": true,
+          "validateType": "",
+          "validationRule": {},
+          "remark": "ongoing\nupcoming\nended"
+        }
+      ],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "tab"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_clck,元素点击"
+        },
+        {
+          "paramId": "module_name",
+          "colName": "模块名称",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"min\":\"\",\"max\":\"\",\"regex\":\"\",\"values\":\"latest-updates,latest-updates\\nhot-trades,hot-trades\\nnav-sidebar,nav-sidebar\\nlabel-card,label-card\\nupdated-pets,updated-pets\\npets-info,pets-info\\nuniversal-info,universal-info\\ntrending-new,trending-new\\nyou-may-also-like,you-may-also-like\\nkitsune-value-overview,kitsune-value-overview\\npets-with-similar-value,pets-with-similar-value\\npet-log,pet-log\\npet-value-list,pet-value-list\\nfaq,faq\\npet-trading-summary,pet-trading-summary\\nbanner-card,banner-card\\nrelated-articles,related-articles\\nheader-information-card,header-information-card\\nyoutube-video,youtube-video\\ntrade-recommend,trade-recommend\\narticle,article\\npet-wiki,pet-wiki\\nodayis-top-trade-value-pets,odayis-top-trade-value-pets\\ngrow-a-garden-giveaways,grow-a-garden-giveaways\\ngiveaways-calendar,giveaways-calendar\\ngiveaway-list,giveaway-list\"}",
+          "required": true,
+          "remark": "giveaway-list,giveaway-list"
+        }
+      ]
+    },
+    {
+      "curPage": "giveaway",
+      "curLocation": "giveaways-calendar/pop",
+      "eventId": "dt_clck/giveaway/giveaways-calendar/pop",
+      "displayVersion": null,
+      "props": [
+        {
+          "paramId": "pop_status",
+          "paramType": "string",
+          "required": true,
+          "validateType": "",
+          "validationRule": {},
+          "remark": "卡片状态：\nongoing\nupcoming\nended"
+        }
+      ],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "pop"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_clck,元素点击"
+        },
+        {
+          "paramId": "pop_type",
+          "colName": "弹窗类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"items-choose-pop,道具选择弹窗\\nactivities-pop,节日活动弹窗\\nversion-update-pop,版更弹窗\\napply-pop,申请抽奖权限弹窗\\ncreate-pop,创建抽奖弹窗\\nconnect-pop,交接弹窗\\nongoing-example-pop,ongoing的Example弹窗\\ngiveaways-calendar,giveaways日历弹窗\"}",
+          "required": true,
+          "remark": "giveaways-calendar,giveaways日历弹窗"
+        }
+      ]
+    },
+    {
+      "curPage": "giveaway",
+      "curLocation": "giveaways-calendar/pop",
+      "eventId": "dt_imp/giveaway/giveaways-calendar/pop",
+      "displayVersion": null,
+      "props": [
+        {
+          "paramId": "pop_status",
+          "paramType": "string",
+          "required": true,
+          "validateType": "",
+          "validationRule": {},
+          "remark": "卡片状态：\nongoing\nupcoming\nended"
+        }
+      ],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "pop"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_imp,元素曝光"
+        },
+        {
+          "paramId": "pop_type",
+          "colName": "弹窗类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"items-choose-pop,道具选择弹窗\\nactivities-pop,节日活动弹窗\\nversion-update-pop,版更弹窗\\napply-pop,申请抽奖权限弹窗\\ncreate-pop,创建抽奖弹窗\\nconnect-pop,交接弹窗\\nongoing-example-pop,ongoing的Example弹窗\\ngiveaways-calendar,giveaways日历弹窗\"}",
+          "required": true,
+          "remark": "giveaways-calendar,giveaways日历弹窗"
+        }
+      ]
+    },
+    {
+      "curPage": "giveaway",
+      "curLocation": "giveaways-calendar/card",
+      "eventId": "dt_imp/giveaway/giveaways-calendar/card",
+      "displayVersion": null,
+      "props": [],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "card"
+        },
+        {
+          "paramId": "module_name",
+          "colName": "模块名称",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"latest-updates,latest-updates\\nhot-trades,hot-trades\\nnav-sidebar,nav-sidebar\\nlabel-card,label-card\\nupdated-pets,updated-pets\\npets-info,pets-info\\nuniversal-info,universal-info\\ntrending-new,trending-new\\nyou-may-also-like,you-may-also-like\\nkitsune-value-overview,kitsune-value-overview\\npets-with-similar-value,pets-with-similar-value\\npet-log,pet-log\\npet-value-list,pet-value-list\\nfaq,faq\\npet-trading-summary,pet-trading-summary\\nbanner-card,banner-card\\nrelated-articles,related-articles\\nheader-information-card,header-information-card\\nyoutube-video,youtube-video\\ntrade-recommend,trade-recommend\\narticle,article\\npet-wiki,pet-wiki\\nodayis-top-trade-value-pets,odayis-top-trade-value-pets\\ngrow-a-garden-giveaways,grow-a-garden-giveaways\\ngiveaways-calendar,giveaways-calendar\\ndiscover-more-giveaways,discover-more-giveaways\"}",
+          "required": true,
+          "remark": "giveaways-calendar,giveaways-calendar"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9229,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "giveaway,giveaway聚合页（双节活动）"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_imp,元素曝光"
+        }
+      ]
+    },
+    {
+      "curPage": "home",
+      "curLocation": "public-card/giveaways",
+      "eventId": "dt_clck/home/public-card/giveaway",
+      "displayVersion": null,
+      "props": [],
+      "commonParams": [
+        {
+          "paramId": "report_element",
+          "colName": "上报元素",
+          "scene": 0,
+          "colType": "string",
+          "t": "",
+          "r": "{}",
+          "required": false,
+          "remark": "giveaways,giveaways按钮"
+        },
+        {
+          "paramId": "module_name",
+          "colName": "模块名称",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"latest-updates,latest-updates\\nhot-trades,hot-trades\\nnav-sidebar,nav-sidebar\\nlabel-card,label-card\\nupdated-pets,updated-pets\\npets-info,pets-info\\nuniversal-info,universal-info\\ntrending-new,trending-new\\nyou-may-also-like,you-may-also-like\\nkitsune-value-overview,kitsune-value-overview\\npets-with-similar-value,pets-with-similar-value\\npet-log,pet-log\\npet-value-list,pet-value-list\\nfaq,faq\\npet-trading-summary,pet-trading-summary\\nbanner-card,banner-card\\nrelated-articles,related-articles\\nheader-information-card,header-information-card\\nyoutube-video,youtube-video\\ntrade-recommend,trade-recommend\\narticle,article\\npet-wiki,pet-wiki\\nodayis-top-trade-value-pets,odayis-top-trade-value-pets\\ngrow-a-garden-giveaways,grow-a-garden-giveaways\\ngiveaways-calendar,giveaways-calendar\\ngiveaway-list,giveaway-list\\npublic-card,public-card\"}",
+          "required": true,
+          "remark": "public-card,public-card"
+        },
+        {
+          "paramId": "scene",
+          "colName": "场景ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"9201,首页\\n9202,道具列表页(/trade)\\n9203,交易价值计算器页\\n9204,宠物体重计算器页\\n9205,宠物金币计算器页\\n9206,宠物WIKI页\\n9207,活动列表页\\n9208,宠物等级排名页\\n9209,宠物技能排名页\\n9210,分类文章列表-guides页\\n9211,分类文章列表-news页\\n9212,分类文章列表-ranks页\\n9213,宠物管理页\\n9214,文章详情页\\n9215,单个道具交易列表页(/trade/道具slug)\\n9216,创建交易页(/trade/create)\\n9217,交易确认页\\n9218,聊天页\\n9219,个人中心页\\n9220,WIKI详情页\\n9221,Contributors页(/contributors)\\n9222,更新日志页\\n9223,events详情页\\n9224,value列表页\\n9225,value详情页\\n9227,订单列表页 (/tradelist)\\n9228,订单详情页（/tradelist/交易id）\\n9229,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "9201,首页"
+        },
+        {
+          "paramId": "pg_id",
+          "colName": "页面ID",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"home,首页\\ntrade,道具列表页(/trade)\\ncalculator,交易价值计算器页\\npet-weight-calculator,宠物体重计算器页\\npet-calculator,宠物金币计算器页\\nwiki,宠物WIKI页\\nevents,活动列表页\\npets-tierlist,宠物等级排名页\\ntraits-tierlist,宠物技能排名页\\nguides,分类文章列表-guides页\\nnews,分类文章列表-news页\\nrankings,分类文章列表-ranks页\\npet-management,宠物管理页\\narticle-detail,文章详情页\\ntrade-detail,单个道具交易列表页(/trade/道具slug)\\ntrade-create,创建交易页(/trade/create)\\ntrade-confirm,交易确认页\\nchat,聊天页\\nprofile,个人中心页\\nwiki-detail,WIKI详情页\\ncontributors,Contributors页(/contributors)\\nupdatelog,更新日志页\\nevents-detail,events详情页\\nvalue,value列表页\\nvalue-detail,value详情页\\ntradelist,订单列表页 (/tradelist)\\ntradelist-detail,订单详情页（/tradelist/交易id）\\ngiveaway,giveaway聚合页（双节活动）\"}",
+          "required": true,
+          "remark": "home,首页"
+        },
+        {
+          "paramId": "event_code",
+          "colName": "事件类型",
+          "scene": 0,
+          "colType": "string",
+          "t": "enum",
+          "r": "{\"values\":\"dt_clck,元素点击\\ndt_imp_end,元素结束曝光\\ndt_imp,元素曝光\\ndt_pgout,页面结束曝光\"}",
+          "required": true,
+          "remark": "dt_clck,元素点击"
+        }
+      ]
+    }
+  ],
+  "success": true
+}
